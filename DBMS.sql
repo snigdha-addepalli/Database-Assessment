@@ -1,0 +1,12 @@
+CREATE table employee(EmployeeID int,EmployeeName varchar(20),DateOfBirth date, Email varchar(20),PhoneNumber number(10), Street varchar(20), City varchar (20), State varchar(20),Country varchar (10), Pincode int);
+insert into employee values (01, 'Snigdha', '20-DEC-2001', 'snigdha@gmail.com', 9876543210, 'streetone', 'Hyderabad', 'Telangana', 'India', 9630);
+insert into employee values (02, 'Kim', '22-JAN-2001', 'kim@gmail.com', 9885274210, 'streettwo', 'Seoul', 'South korea', 'Korea', 8520);
+insert into employee values (03, 'Taehyung', '10-FEB-2002', 'tae@gmail.com', 9876547536, 'streetthr', 'New York', 'New York', 'USA', 1234);
+insert into employee values (04, 'Namjoon', '25-NOV-2004', 'nam@gmail.com', 9741043210, 'streetfour', 'Los Angeles', 'California', 'USA', 1234);
+insert into employee values (05, 'Seokjin', '17-OCT-2006', 'seo@gmail.com', 9987630210, 'streetfiv', 'Chicago', 'Illinois', 'USA', 1234);
+insert into employee values (06, 'Jungkook', '28-MAR-2008', 'jung@gmail.com', 9874185230, 'streetsix', 'Houston', 'Texas', 'USA', 1234);
+insert into employee values (07, 'Park', '16-APR-2005', 'park@gmail.com', 9874185200, 'streetsev', 'Phoenix', '	Arizona', 'USA', 1234);
+insert into employee values (08, 'Jimin', '29-JUL-2003', 'jim@gmail.com', 9735963210, 'streeteight', 'Philadelphia', 'Pennsylvania', 'USA', 1234);
+insert into employee values (09, 'Hoseok', '10-JUN-2007', 'hose@gmail.com', 9786214210, 'streetnine', 'San Antonio', 'Texas', 'USA', 1234);
+insert into employee values (10, 'Yoongi', '13-MAY-2009', 'yun@gmail.com', 9123654610, 'streetten', 'San Diego', 'California', 'USA', 1234);
+select * from employee;
